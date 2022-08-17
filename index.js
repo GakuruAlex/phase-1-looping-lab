@@ -1,4 +1,4 @@
-function writeCards(names,event){
+const  writeCards=(names,event)=>{
 
     let newNames=[]
 
@@ -11,7 +11,7 @@ function writeCards(names,event){
 return newNames;
 }
 
-function countDown(num){
+const countDown=(num)=>{
  while(num>=0){
     console.log(num)
     num--;
